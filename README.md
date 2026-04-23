@@ -44,20 +44,12 @@ Leetcode/
 
 ---
 
-##  Example Problems
-
-| Problem No. | Problem Name     | Solution |
-| ----------- | ---------------- | -------- |
-| 292         | Nim Game         | ✔️       |
-| 12          | Integer to Roman | ✔️       |
-
----
 
 ##  Goals
 
 * Solve 1000+ problems
 * Master DSA concepts
-* Crack top tech interviews 💼
+* Crack top tech interviews 
 
 ---
 
