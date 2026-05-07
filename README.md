@@ -37,10 +37,10 @@ Leetcode/
 
 ##  Progress Tracker
 
-*  Total Problems Solved: 48
-*  Easy: 22
-*  Medium: 20
-*  Hard: 06
+*  Total Problems Solved: 51
+*  Easy: 23
+*  Medium: 21
+*  Hard: 07
 
 ---
 
