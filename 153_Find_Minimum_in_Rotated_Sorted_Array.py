@@ -37,3 +37,13 @@ n == nums.length
 All the integers of nums are unique.
 nums is sorted and rotated between 1 and
 '''
+class Solution:
+    def findMin(self, nums):
+        left, right = 0, len(nums) - 1
+        while left < right:
+            mid = (left + right) // 2
+            if nums[mid] > nums[right]:
+                left = mid + 1
+            else:
+                right = mid
+        return nums[left]
