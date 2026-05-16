@@ -31,3 +31,15 @@ n == nums.length
 nums is sorted and rotated between 1 and n times.
  
 '''
+class Solution:
+    def findMin(self, nums):
+        left, right = 0, len(nums) - 1      
+        while left < right:
+            mid = (left + right) // 2            
+            if nums[mid] < nums[right]:
+                right = mid         
+            elif nums[mid] > nums[right]:
+                left = mid + 1         
+            else:
+                right -= 1       
+        return nums[left]
